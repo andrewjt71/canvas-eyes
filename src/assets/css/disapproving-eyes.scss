@@ -1,0 +1,13 @@
+@use "./variables.scss" as *;
+
+.disapproving-eyes-app {
+    height: calc(100vh - $header-height);
+    width: 100%;
+}
+
+.disapproval-screenshot {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

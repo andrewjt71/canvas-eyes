@@ -1,0 +1,44 @@
+@use "./variables.scss" as *;
+@import url(https://fonts.bunny.net/css?family=abeezee:400);
+
+html body {
+    height: 100%;
+    font-family: 'ABeeZee', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+h1 {
+    line-height: 1em;
+    font-weight: 700;
+    font-size: 25px;
+
+    @media only screen and (min-width: 500px) {
+        font-size: 30px;
+    }
+}
+
+.page-container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 100px;
+
+    p {
+        text-align: center;
+    }
+}
+
+.full-screen-block__content {
+    max-width: $content-width;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+a {
+    text-decoration: none;
+}

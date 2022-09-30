@@ -1,0 +1,24 @@
+@use "./variables.scss" as *;
+
+.header {
+    display: flex;
+    height: $header-height;
+    vertical-align: initial;
+    line-height: $header-height;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    gap: 20px;
+    letter-spacing: .2em;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.header_logo {
+    background-image: url('../img/cmcf.png');
+    background-size: calc($header-height - 10px) calc($header-height - 10px);
+    background-repeat: no-repeat;
+    width: calc($header-height - 10px);
+    margin-top: 5px;
+    margin-left: 15px;
+}
