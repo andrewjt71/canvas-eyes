@@ -1,6 +1,8 @@
 # Disapproving Eyes
 
-The aim of this piece of work is to learn how best to create animations with canvas, using geometry to paint configurable shapes to the page.
+Using canvas and a load of geometry to create animated eyes. Deatils on how I achieved this can be found further down in this readme.
+
+![eyes animation gif](./src/assets/img/eyes.gif)
 
 ## Prerequisites for running locally
 - Docker compose
@@ -9,9 +11,6 @@ The aim of this piece of work is to learn how best to create animations with can
 ## Running locally
 - `./bin/install`
 - open `index.html` in your browser
-
-## The Result
-![eyes animation gif](./src/assets/img/eyes.gif)
 
 ## The Code
 First of all we need to create a context on which to paint. Let's create a class which will handle all painting to the canvas. We can pass a HTML element into the constructor on which the canvas will be created.
